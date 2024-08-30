@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.859);
+    border: 13px solid rgb(10, 35, 61);
+    border-radius: 20px;
+}
+
+.Content{
+    color: black;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    padding-left: 12.5%;
+}
+
+h1{
+    background-color: rgb(10, 35, 61);
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    padding: 2rem 0 2rem 0;
+    border-radius: 20px;
+}
+
