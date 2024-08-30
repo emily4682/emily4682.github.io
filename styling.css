@@ -107,6 +107,7 @@ img{
 .scrollDown .fa{
     color: white;
     margin: 0;
+    width: 4em;
     padding: 0;
     animation: animate 1s linear infinite;
 }
@@ -115,6 +116,27 @@ img{
 {
     0%
     {
-        transform: translateY(-30px);
+        transform: translateY(-50px);
+        text-shadow: 0 50px 0 white;
+    }
+    20%
+    {
+        transform: translateY(0px);
+    }
+    40%
+    {
+        transform: translateY(0px);
+    }
+    60%
+    {
+        transform: translateY(0px);
+    }
+    80%
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(100px);
     }
 }
