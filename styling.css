@@ -95,3 +95,26 @@ img{
     color: white;
     transform: translateY(-10px);
 }
+
+.scrollDown{
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 6em;
+    height: 6em;
+    background-color: transparent;
+}
+
+.scrollDown .fa{
+    color: white;
+    margin: 0;
+    padding: 0;
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(-30px);
+    }
+}
