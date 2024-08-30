@@ -79,7 +79,7 @@ img{
     border-radius: 100%;
 }
 
-.mainButton{
+.mainButton, .proj{
     background-color: rgb(241, 241, 241);
     padding: 1.3em 2em 1.3em 2em;
     border-radius: 20px;
@@ -91,10 +91,17 @@ img{
     transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
 
-.mainButton:hover{
+.mainButton:hover, .proj:hover{
     background-color: rgb(10, 35, 61);
     color: white;
+}
+
+.mainButton:hover{
     transform: translateY(-10px);
+}
+
+.proj:hover{
+    transform: translateY(10px);
 }
 
 .scrollDown{
@@ -140,4 +147,10 @@ img{
     {
         transform: translateY(100px);
     }
+}
+
+.examples{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
