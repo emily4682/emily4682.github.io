@@ -103,11 +103,13 @@ img{
     width: 6em;
     height: 6em;
     background-color: transparent;
+    align-items: center;
 }
 
 #down{
     color: white;
     margin: 0;
+    font-size: 1.5em;
     animation: animate 1s linear infinite;
 }
 
