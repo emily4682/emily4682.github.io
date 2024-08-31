@@ -187,3 +187,7 @@ ul{
     text-decoration: none;
     color: black;
 }
+
+#certifications img{
+    width: 20%;
+}
