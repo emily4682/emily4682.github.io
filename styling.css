@@ -170,3 +170,20 @@ svg{
 ul{
     list-style: none;
 }
+
+#pdfViewer{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+
+.downloads{
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.downloads::after{
+    text-decoration: none;
+    color: black;
+}
