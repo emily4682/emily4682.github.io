@@ -40,10 +40,15 @@
                 <p> During this work experience.............. </p>
                 <br>
                 <h5> <i class="fa-regular fa-file-lines"></i> PowerPoint from my Work Experience </h5> 
-                <div id="pdfViewer"> 
-                    <object class="pdf" data="Documents/WorkExperienceSerco.pdf" width=100% height=100% ></object>
-                </div>
-                
+                <script>
+                    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+                        document.write('<p> This device doesn\'t support pdf viewing, please download this document instead')
+                    }
+                    else
+                    {
+                        document.write('<div id="pdfViewer"> <object class="pdf" data="Documents/WorkExperienceSerco.pdf" width=100% height=100% ></object> </div>')
+                    }
+                </script>
                 <h5 > Download </h5>
                 <a class="downloads" href="Documents/WorkExperienceSerco.pdf" download="WorkExperiencePowerpoint_Emily Paterson_Serco_Full"> <i class="fa-solid fa-download"></i> Full PowerPoint </a> &nbsp;&nbsp;&nbsp;&nbsp; <a  class="downloads" href="Documents/WorkExperienceSerco.pdf" download="WorkExperiencePowerpoint_Emily Paterson_Serco_Summary"> <i class="fa-solid fa-download"></i> Summary </a>
                 <br>
