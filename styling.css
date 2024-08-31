@@ -172,15 +172,20 @@ ul{
 }
 
 #pdfViewer{
-    width: 80%;
-    height: 80%;
-    margin-left: 10%;
+    align-items: center;
+}
+
+#pdfViewer object{
+    max-width: 500px;
+    height: 30vh;
+    max-height: 300px;
 }
 
 .downloads{
     font-size: small;
     color: black;
     text-decoration: none;
+    
 }
 
 .downloads::after{
@@ -190,4 +195,6 @@ ul{
 
 #certifications img{
     width: 20%;
+    max-width: 150px;
 }
+
