@@ -68,7 +68,7 @@ nav a::after{
     color: white;
 }
 
-img{
+.socialButton{
     height: 1.5em;
     filter: brightness(0) invert(1);
     padding: 0.15em 0.15em 0.15em 0.15em;
@@ -153,4 +153,20 @@ img{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+svg{
+    width: 47%;
+    height: 0.70rem;
+    display: inline;
+    border: 2px solid rgb(10, 35, 61);
+}
+
+.experience{
+    height: 0.70rem;
+    fill:rgb(10, 35, 61);
+}
+
+ul{
+    list-style: none;
 }

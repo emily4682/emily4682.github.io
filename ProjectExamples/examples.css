@@ -1,24 +1,48 @@
 body{
-    height: 100vh;
-    background-color: rgba(255, 255, 255, 0.859);
-    border: 13px solid rgb(10, 35, 61);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
 }
 
-.Content{
+.example{
     color: black;
     align-items: center;
     text-align: center;
-    width: 75%;
-    padding-left: 12.5%;
+}
+
+.content{
+    width: 96%;
+    border: 10px double rgb(10, 35, 61);
 }
 
 h1{
     background-color: rgb(10, 35, 61);
     color: white;
-    width: 70%;
-    margin-left: 15%;
+    width: 90%;
+    margin-left: 5%;
     padding: 2rem 0 2rem 0;
     border-radius: 20px;
+}
+
+img{
+    width: 45%;
+}
+
+.goBack{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.goBack:hover{
+    background-color:rgb(10, 35, 61);
+    color: white;
+    border-radius: 20px;
+    font-weight: bolder;
+    transform: translateY(10px);
 }
 
