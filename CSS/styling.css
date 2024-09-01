@@ -63,7 +63,7 @@ nav a button:hover{
     transform: translateY(10px);
 }
 
-nav a::after{
+nav a:visited{
     text-decoration: none;
     color: white;
 }
@@ -174,4 +174,6 @@ ul{
     max-width: 600px;
 }
 
-
+#shortSummary{
+    font-size: small;
+}
