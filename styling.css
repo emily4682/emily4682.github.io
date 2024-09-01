@@ -220,7 +220,7 @@ ul{
     font-size: smaller;
 }
 
-.infoLinks a:after{
+.infoLinks a:visited{
     text-decoration: none;
     color: black;
 }
