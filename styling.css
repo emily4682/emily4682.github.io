@@ -214,13 +214,3 @@ ul{
     border-radius: 20px;
 }
 
-.info{
-    color: black;
-    text-decoration: none;
-    font-size: smaller;
-}
-
-.info:visited{
-    text-decoration: none;
-    color: black;
-}
