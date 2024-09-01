@@ -159,12 +159,6 @@ nav a::after{
     gap: 1.5rem;
 }
 
-svg{
-    width: 47%;
-    height: 0.70rem;
-    display: inline;
-    border: 2px solid rgb(10, 35, 61);
-}
 
 .experience{
     height: 0.70rem;
@@ -173,28 +167,6 @@ svg{
 
 ul{
     list-style: none;
-}
-
-#pdfViewer{
-    align-items: center;
-}
-
-#pdfViewer object{
-    max-width: 500px;
-    height: 30vh;
-    max-height: 300px;
-}
-
-.downloads{
-    font-size: small;
-    color: black;
-    text-decoration: none;
-    
-}
-
-.downloads::after{
-    text-decoration: none;
-    color: black;
 }
 
 #certifications img{

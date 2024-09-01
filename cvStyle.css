@@ -1,0 +1,35 @@
+a{
+    color: black;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+#pdfViewer{
+    align-items: center;
+}
+
+#pdfViewer object{
+    max-width: 500px;
+    height: 30vh;
+    max-height: 300px;
+}
+
+.downloads{
+    font-size: small;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.downloads:visited{
+    text-decoration: none;
+    color: black;
+}
+
+svg{
+    width: 47%;
+    height: 0.70rem;
+    display: inline;
+    border: 2px solid rgb(10, 35, 61);
+}
+
