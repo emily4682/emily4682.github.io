@@ -213,3 +213,14 @@ ul{
     background-color: rgba(56, 64, 71, 0.114);
     border-radius: 20px;
 }
+
+.infoLinks a{
+    color: black;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.infoLinks a:after{
+    text-decoration: none;
+    color: black;
+}
