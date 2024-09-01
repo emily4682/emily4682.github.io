@@ -153,13 +153,6 @@ nav a::after{
     }
 }
 
-.examples{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-
 .experience{
     height: 0.70rem;
     fill:rgb(10, 35, 61);
@@ -181,8 +174,4 @@ ul{
     max-width: 600px;
 }
 
-.examples{
-    background-color: rgba(56, 64, 71, 0.114);
-    border-radius: 20px;
-}
 
