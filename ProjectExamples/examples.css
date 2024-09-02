@@ -52,3 +52,8 @@ p{
     margin-left: 12.5%;
 }
 
+.link{
+    width: 10%;
+    filter: grayscale(100) invert(1);
+}
+

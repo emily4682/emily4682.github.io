@@ -5,25 +5,26 @@
         <link rel="stylesheet" href="../CSS/styling.css"> 
         <link rel="stylesheet" href="examples.css"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Outlook Sorter Project </title>
     </head>
 
     <body>
     
         <section class="example">
             <div class="content">
-            <h1> ... </h1>
+            <h1> Automatic Outlook Inbox Sorter </h1>
             
             <a href="../projects.html"> <button class="goBack"> Go Back </button></a>
             
-            <h3> Language/s Used:  </h3>
+            <h3> Language/s Used: </h3>
+            <p> UiPath (based in VB) </p>
             <h3> Description: </h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id massa id erat rhoncus viverra et at velit. In vitae tellus lorem. Sed consectetur mauris sed auctor aliquet. Sed hendrerit, tellus congue ultricies gravida, mi quam porttitor lectus, ac feugiat risus purus nec est. Donec eu dignissim nisi. Phasellus quis justo malesuada neque fringilla tristique id sed velit. Pellentesque convallis ipsum ultrices dui accumsan mollis. Praesent sed finibus felis. In dignissim in ex quis feugiat. Integer luctus odio non tempus facilisis. Aliquam erat volutpat. Sed sollicitudin, risus nec placerat lacinia, tellus enim eleifend mi, a cursus urna tellus id est.</p>
-            <h4> Images </h4>
-            <div>
-                
-            </div>
+            <p> 
+                This project was developed as part of my work experience with Serco. I built this in UiPath which is a piece of software used for RPA automations. <br><br>
+                The bot will go through each email in an outlook inbox and move the email to the correct folder based on the email's sender. If the folder doesn't exist, the bot will create it and then keep a log of all created folders in an excel sheet. The excel sheet can then be refrenced when the bot is figuring out if the folder exists, this is much more efficient than getting the bot to search through your outlook folder list. <br><br>
+                There is also an excel sheet read in that contains a list of companies I wish to have a parent folder for. The parent folder could be something like Microsoft and each email containing @microsoft.co.uk will have it's own subfolder created inside the parent folder. This allows for better organision <br><br>
+            </p>
             <h4> Videos </h4>
-            <a href="#"> <button class="proj"> Try it yourself! </button> </a>
             <br>
             <br>
             </div>

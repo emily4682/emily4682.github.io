@@ -16,6 +16,7 @@
             <a href="index.html"> <button> Home </button> </a>
             <a href="projects.html"> <button> Projects </button> </a>
             <a href="CV.html"><button> CV </button> </a>
+            <title> My CV </title>
         </div>
     </nav>
 
@@ -64,17 +65,16 @@
                 <script>
                     
                     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-                        //document.write('<input class="proj" type="button" value="PDF" onclick="location.href=\'Documents/WorkExperienceSerco.pdf\'"/>')
+                        document.write('<input class="proj" type="button" value="PDF" onclick="location.href=\'Documents/WorkExperienceSercoSummary_EmilyPaterson.pdf\'"/>')
                     }
                     else
                     {
-                        // Comment out until file completed
-                        //document.write('<div id="pdfViewer"> <object class="pdf" data="Documents/WorkExperienceSerco.pdf" width=100% height=100% ></object> </div>') //
+                        document.write('<div id="pdfViewer"> <object class="pdf" data="Documents/WorkExperienceSercoSummary_EmilyPaterson.pdf" width=100% height=100% ></object> </div>') //
                     }
                 </script>
                 <h5 > Download </h5>
                 <!-- Add Download Links -->
-                <a class="downloads" href="#" download="WorkExperiencePowerpoint_Emily Paterson_Serco_Full"> <i class="fa-solid fa-download"></i> Full PowerPoint </a> &nbsp;&nbsp;&nbsp;&nbsp; <a  class="downloads" href="#" download="WorkExperiencePowerpoint_Emily Paterson_Serco_Summary"> <i class="fa-solid fa-download"></i> Summary </a>
+                <a class="downloads" href="Documents/WorkExperienceSercoFull_EmilyPaterson.pdf" download="WorkExperiencePowerpoint_Emily Paterson_Serco_Full"> <i class="fa-solid fa-download"></i> Full PowerPoint </a> &nbsp;&nbsp;&nbsp;&nbsp; <a  class="downloads" href="#" download="WorkExperiencePowerpoint_Emily Paterson_Serco_Summary"> <i class="fa-solid fa-download"></i> Summary </a>
                 <br>
             </div>
 
@@ -105,6 +105,8 @@
             <p> JavaScript <br> <svg > <rect class="experience" width=50% /> </svg> </p>
             <p> C# <br> <svg > <rect class="experience" width=60% /> </svg> </p>
             <p> Python <br> <svg > <rect class="experience" width=60% /> </svg> </p>
+            <p> UiPath <br> <svg > <rect class="experience" width=60% /> </svg> </p>
+            <p> Boomi <br> <svg > <rect class="experience" width=40% /> </svg> </p>
             
             <script>
                 spacer();
