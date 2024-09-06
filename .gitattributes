@@ -1,5 +1,0 @@
-Documents/WorkExperienceSerco.zip filter=lfs diff=lfs merge=lfs -text
-WorkExperienceSerco.zip filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-Documents/SercoWorkExperience.zip filter=lfs diff=lfs merge=lfs -text
-Documents/SercoWorkExperienceSummary.zip filter=lfs diff=lfs merge=lfs -text
